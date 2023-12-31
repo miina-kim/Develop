@@ -1,5 +1,5 @@
 # Develop
-[] Develop Myself
+Develop Myself ✍️
 
 * Author : Mina Kim
 
