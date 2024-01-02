@@ -1,3 +1,7 @@
+# 개념
+- Git : 로컬 버전 관리 시스템
+- Github : 클라우드 버전 관리 시스템
+
 # initialization
 - git init
 
@@ -11,14 +15,14 @@
 - git pull origin {브랜치명}
 
 ## Process of Uploading codes ##
-# add
+# add : 커밋 전 원하는 파일을 묶음(스테이지에 올림), untracked -> tracked file(git 관리 대상)로 변경
 - git add {파일명}
 - git add .
 
 # (opt) check status
 - git status
 
-# commit & make history
+# commit : 특정 시점에 파일의 변화를 저장, 커밋한 시점으로 돌아갈 수 있음.
 - git commit -m "{history}"
 
 # connect local project with repository
