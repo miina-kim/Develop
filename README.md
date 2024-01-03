@@ -1,5 +1,5 @@
 # Develop
-Develop Myself 🤓✍️
+Develop Myself to be more Professional 🤓✍️
 
 * Author : Mina Kim
 
