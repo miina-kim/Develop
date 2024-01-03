@@ -3,6 +3,6 @@
 
 * Author : Mina Kim
 
-* STUDY
+* STUDY PLAN & CHECK
 - [x] Django Example (~ 2024-01-03)
 - [ ] HTML Example (2024-01-04 ~)
