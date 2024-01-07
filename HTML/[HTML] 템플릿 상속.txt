@@ -1,0 +1,31 @@
+-------------------- base.html -------------------- 기본 html
+{% load static %}
+<!doctype html>
+<html lang="ko">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+    <!-- Base CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+    <title> Base Title </title>
+</head>
+<body>
+<!-- 기본 템플릿 안에 삽입될 내용 Start -->
+{% block content %}
+{% endblock %}
+<!-- 기본 템플릿 안에 삽입될 내용 End -->
+</body>
+</html>
+
+-------------------- example.html -------------------- 기본 html을 상속받아 html 작성
+{% extends 'base.html' %}
+{% block content %}
+<div class="container my-3">
+    <table>
+        (... 생략 ...)
+    </table>
+</div>
+{% endblock %}
