@@ -27,7 +27,7 @@
 - git commit -m "{history}"
 
 # connect local project with repository
-- git remote add origin {주소}
+- git remote add origin {GitHub주소}
 
 # (opt) check connection
 - git remote -v
