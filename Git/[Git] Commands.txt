@@ -1,6 +1,6 @@
 # 개념
 - Git : 로컬 버전 관리 시스템
-- Github : 클라우드 버전 관리 시스템
+- Github : 원격 클라우드 버전 관리 시스템
 
 # initialization
 - git init
